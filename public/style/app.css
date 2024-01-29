@@ -1,9 +1,14 @@
+@font-face {
+  font-family: fontSite;
+  src: url(./../src/font/static/RobotoSlab-Medium.ttf);
+}
 body {
   background: #F3B95F;
   padding: 0px;
   margin: 0px;
   width: 100vw;
   height: 100vh;
+  font-family: fontSite;
 }
 
 header {
@@ -34,7 +39,7 @@ header .navBar .links {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   border-right: solid black 2px;
   border-left: solid black 2px;
 }
@@ -51,6 +56,42 @@ header .navBar .links a:hover {
 header .navBar .languages {
   width: 15%;
   height: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background: #2B2A4C;
+}
+footer .liens {
+  width: 100%;
+  height: 50px;
+}
+
+.home1 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 500px;
+  filter: brightness(0.8);
+}
+.home1 .banniere1 {
+  height: 100%;
+  width: 100%;
+  background-image: url("./../src/images/banniere1.jpg");
+  background-size: cover;
+  border-top: solid black 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home1 .banniere1 h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  filter: brightness(-1);
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=app.css.map */

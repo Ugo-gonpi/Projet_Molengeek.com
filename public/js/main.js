@@ -13,3 +13,17 @@ let molenLogo = () => {
 }
 
 molenLogo()
+
+let resaux = data.reseauxSociaux
+
+let a
+
+let liens = () =>{
+    for (let i = 0; i < resaux.length; i++) {
+        a = document.createElement("a")
+        a.href = resaux[i]
+        document.querySelector(".liens").appendChild(a)
+    }
+}
+
+liens()
