@@ -8,5 +8,8 @@ let img
 
 let molenLogo = () => {
     img = document.createElement("img")
-    
+    img.src = logo
+    document.querySelector(".logo").appendChild(img)
 }
+
+molenLogo()
