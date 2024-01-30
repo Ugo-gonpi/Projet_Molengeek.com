@@ -40,8 +40,8 @@ header .navBar .links {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  border-right: solid black 2px;
-  border-left: solid black 2px;
+  border-right: solid black 1px;
+  border-left: solid black 1px;
 }
 header .navBar .links a {
   color: white;
@@ -99,7 +99,7 @@ footer .logo2 .molen {
 .home1 .banniere1 {
   height: 100%;
   width: 100%;
-  background-image: url("./../src/images/banniere1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3647058824), rgba(0, 0, 0, 0.2862745098)), url("./../src/images/banniere1.jpg");
   background-size: cover;
   background-attachment: fixed;
   border-top: solid black 2px;
@@ -297,14 +297,224 @@ header .navBar .links {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  border-right: solid black 2px;
-  border-left: solid black 2px;
+  border-right: solid black 1px;
+  border-left: solid black 1px;
 }
 header .navBar .links a {
   color: white;
   height: 40%;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
+  transition: 0.1s;
+}
+header .navBar .links a:hover {
+  border-bottom: solid black 4px;
+}
+header .navBar .languages {
+  width: 15%;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background: #284E78;
+}
+footer .liens {
+  width: 100%;
+  height: 30%;
+}
+footer .logo2 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .logo2 img {
+  width: 150px;
+  height: 50px;
+  padding-top: 15px;
+}
+footer .logo2 .copyright {
+  margin-bottom: 0px;
+  opacity: 50%;
+  color: grey;
+}
+footer .logo2 .molen {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.cowork1 {
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3647058824), rgba(0, 0, 0, 0.2862745098)), url("./../src/images/cowork.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cowork1 h1 {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  color: #5D8233;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cowork2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 130px;
+}
+.cowork2 .description {
+  border: black solid 1px;
+  border-radius: 20px;
+}
+.cowork2 .description h3 {
+  color: white;
+  padding-left: 20px;
+  text-decoration: underline 2px solid grey;
+  text-underline-offset: 8px;
+}
+.cowork2 .description h3 span {
+  color: black;
+}
+.cowork2 .description p {
+  color: white;
+  padding-left: 20px;
+  line-height: 35px;
+}
+.cowork2 .description p span {
+  color: black;
+}
+.cowork2 .gratuit {
+  border: black solid 1px;
+  border-radius: 20px;
+}
+.cowork2 .gratuit h3 {
+  color: white;
+  padding-left: 20px;
+  text-decoration: underline 2px solid grey;
+  text-underline-offset: 8px;
+}
+.cowork2 .gratuit h3 span {
+  color: black;
+}
+.cowork2 .gratuit p {
+  color: white;
+  padding-left: 20px;
+  line-height: 20px;
+}
+.cowork2 .gratuit p span {
+  color: black;
+}
+.cowork2 .horaire {
+  grid-column: span 2;
+}
+.cowork2 .horaire h3 {
+  color: white;
+  padding-top: 0px;
+  padding-left: 25px;
+  text-decoration: underline 2px solid grey;
+  text-underline-offset: 8px;
+}
+.cowork2 .horaire h3 span {
+  color: black;
+}
+.cowork2 .horaire p {
+  color: white;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.cowork3 {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cowork3 .contactUs {
+  width: 40%;
+  height: 100%;
+  padding-left: 40px;
+}
+.cowork3 .contactUs h1 {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+.cowork3 .contactUs p {
+  color: #5D8233;
+}
+.cowork3 .googleMaps {
+  width: 60%;
+  height: 100%;
+  padding-right: 40px;
+}
+.cowork3 .googleMaps iframe {
+  width: 100%;
+  height: 90%;
+  padding-top: 10px;
+}
+
+@font-face {
+  font-family: fontSite;
+  src: url(./../src/font/static/RobotoSlab-Medium.ttf);
+}
+body {
+  background: #ECD662;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  font-family: fontSite;
+}
+
+header {
+  background: #3E215D;
+  height: 70px;
+  width: 100%;
+}
+header .navBar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-bottom: solid black 2px;
+}
+header .navBar .logo {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .navBar .logo img {
+  width: 100%;
+  height: 80%;
+}
+header .navBar .links {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-right: solid black 1px;
+  border-left: solid black 1px;
+}
+header .navBar .links a {
+  color: white;
+  height: 40%;
+  text-decoration: none;
+  font-size: 20px;
   transition: 0.1s;
 }
 header .navBar .links a:hover {
