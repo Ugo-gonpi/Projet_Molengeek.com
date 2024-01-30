@@ -3,7 +3,7 @@
   src: url(./../src/font/static/RobotoSlab-Medium.ttf);
 }
 body {
-  background: #F3B95F;
+  background: #ECD662;
   padding: 0px;
   margin: 0px;
   width: 100vw;
@@ -12,8 +12,8 @@ body {
 }
 
 header {
-  background: #D04848;
-  height: 100px;
+  background: #3E215D;
+  height: 70px;
   width: 100%;
 }
 header .navBar {
@@ -31,7 +31,7 @@ header .navBar .logo {
 }
 header .navBar .logo img {
   width: 100%;
-  height: 60%;
+  height: 80%;
 }
 header .navBar .links {
   width: 70%;
@@ -61,7 +61,7 @@ header .navBar .languages {
 footer {
   width: 100%;
   height: 250px;
-  background: #2B2A4C;
+  background: #284E78;
 }
 footer .liens {
   width: 100%;
@@ -95,13 +95,13 @@ footer .logo2 .molen {
   margin: 0;
   width: 100%;
   height: 500px;
-  filter: brightness(0.8);
 }
 .home1 .banniere1 {
   height: 100%;
   width: 100%;
   background-image: url("./../src/images/banniere1.jpg");
   background-size: cover;
+  background-attachment: fixed;
   border-top: solid black 2px;
   display: flex;
   justify-content: center;
@@ -109,19 +109,242 @@ footer .logo2 .molen {
   text-align: center;
 }
 .home1 .banniere1 h1 {
+  width: 50%;
+  line-height: 70px;
   margin: 0;
   padding: 0;
-  color: white;
+  color: #5D8233;
   filter: brightness(-1);
   font-size: 40px;
 }
 
 .home2 {
   width: 100%;
-  height: 300px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: solid 2px black;
+}
+.home2 .descripLien {
+  width: 30%;
+  height: 100%;
+}
+.home2 .descripLien h2 {
+  color: white;
+  padding-bottom: 0px;
+  text-decoration: underline 2px solid grey;
+  text-underline-offset: 8px;
+  padding-left: 20px;
+}
+.home2 .descripLien h2 span {
+  color: #3E3232;
+  font-style: bold;
+}
+.home2 .descripLien p {
+  color: white;
+  line-height: 25px;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+.home2 .descripLien a {
+  color: white;
+  height: 40%;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.1s;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.home2 .descripLien a:hover {
+  border-bottom: solid black 4px;
+}
+.home2 .partieCarousel {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.home2 .partieCarousel h2 {
+  color: white;
+  padding-bottom: 0px;
+  text-decoration: underline 2px solid grey;
+  text-underline-offset: 8px;
+}
+.home2 .evenements {
+  width: 30%;
+  height: 100%;
+}
+.home2 .evenements h2 {
+  color: white;
+  padding-bottom: 0px;
+  text-decoration: underline 2px solid grey;
+  text-underline-offset: 8px;
+}
+
+.home3 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.home3 .maps {
+  width: 70%;
+  height: 100%;
+}
+.home3 .maps iframe {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.home3 .contactInfo {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+.home3 .contactInfo h1 {
+  color: white;
+  text-decoration: underline 2px grey solid;
+  text-underline-offset: 8px;
+}
+.home3 .contactInfo p {
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  color: #294B29;
+}
+
+.home4 {
+  width: 100%;
+  height: 180px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home4 .lettre {
+  font-size: 50px;
+  color: #284E78;
+}
+.home4 h3 {
+  color: white;
+  text-decoration: underline 2px grey solid;
+  text-underline-offset: 8px;
+}
+.home4 .inscription {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home4 .inscription input {
+  width: 500px;
+  height: 30px;
+  font-family: fontSite;
+  border-radius: 10px;
+}
+.home4 .inscription button {
+  width: 150px;
+  height: 35px;
+  margin-left: 20px;
+  background: #284E78;
+  color: white;
+  font-family: fontSite;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: fontSite;
+  src: url(./../src/font/static/RobotoSlab-Medium.ttf);
+}
+body {
+  background: #ECD662;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  font-family: fontSite;
+}
+
+header {
+  background: #3E215D;
+  height: 70px;
+  width: 100%;
+}
+header .navBar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-bottom: solid black 2px;
+}
+header .navBar .logo {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .navBar .logo img {
+  width: 100%;
+  height: 80%;
+}
+header .navBar .links {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-right: solid black 2px;
+  border-left: solid black 2px;
+}
+header .navBar .links a {
+  color: white;
+  height: 40%;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.1s;
+}
+header .navBar .links a:hover {
+  border-bottom: solid black 4px;
+}
+header .navBar .languages {
+  width: 15%;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background: #284E78;
+}
+footer .liens {
+  width: 100%;
+  height: 30%;
+}
+footer .logo2 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .logo2 img {
+  width: 150px;
+  height: 50px;
+  padding-top: 15px;
+}
+footer .logo2 .copyright {
+  margin-bottom: 0px;
+  opacity: 50%;
+  color: grey;
+}
+footer .logo2 .molen {
+  margin-bottom: 0px;
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */
