@@ -58,16 +58,43 @@ liens()
 
 //Ici on récupere l'info de molengeek
 
-let infoMolen = data.molengeekInfo
+// let infoMolen = data.molengeekInfo
 
-let divInfo = document.querySelector(".contactInfo")
+// let divInfo = document.querySelector(".contactInfo")
 
-divInfo.innerHTML = `
-    <h1>N'hésitez pas a nous contacter</h1>
-    <p>${infoMolen.name}</p>
-    <p>${infoMolen.address}</p>
-    <p>${infoMolen.email}</p>
-    <p>${infoMolen.phone}</p>
-    <p>${infoMolen.tva}</p>
-`
+// divInfo.innerHTML = `
+//     <h1>N'hésitez pas a nous contacter</h1>
+//     <p>${infoMolen.name}</p>
+//     <p>${infoMolen.address}</p>
+//     <p>${infoMolen.email}</p>
+//     <p>${infoMolen.phone}</p>
+//     <p>${infoMolen.tva}</p>
+// `
 
+//Ici on récupere les séances d'informations
+
+let seances = data.formations.seancesInfos
+
+let seancesInfos1 = () =>{
+    for (const key in seances) {
+        if (Object.hasOwnProperty.call(seances, key)) {
+            let p = document.createElement("p")
+            p.innerText = key
+            document.querySelector(".infos1").appendChild(p)
+        }
+    }
+}
+
+seancesInfos1()
+
+let seancesInfos2 = () =>{
+    for (const key in seances) {
+        if (Object.hasOwnProperty.call(seances, key)) {
+            let p = document.createElement("p")
+            p.innerText = key
+            document.querySelector(".infos2").appendChild(p)
+        }
+    }
+}
+
+seancesInfos2()

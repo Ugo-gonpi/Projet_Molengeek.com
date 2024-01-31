@@ -94,7 +94,7 @@ footer .logo2 {
   flex-direction: column;
 }
 footer .logo2 img {
-  width: 150px;
+  width: 170px;
   height: 50px;
   padding-top: 15px;
 }
@@ -369,7 +369,7 @@ footer .logo2 {
   flex-direction: column;
 }
 footer .logo2 img {
-  width: 150px;
+  width: 170px;
   height: 50px;
   padding-top: 15px;
 }
@@ -602,7 +602,7 @@ footer .logo2 {
   flex-direction: column;
 }
 footer .logo2 img {
-  width: 150px;
+  width: 170px;
   height: 50px;
   padding-top: 15px;
 }
@@ -639,6 +639,135 @@ footer .logo2 .molen {
 .agenda2 {
   width: 100%;
   height: 500px;
+  display: flex;
+}
+.agenda2 .permiereRange {
+  width: 50%;
+  height: 100%;
+}
+.agenda2 .permiereRange .infos1 {
+  width: 100%;
+  height: 33%;
+}
+.agenda2 .deuxiemeRange {
+  width: 50%;
+  height: 100%;
+}
+.agenda2 .deuxiemeRange .infos1 {
+  width: 100%;
+  height: 33%;
+}
+
+@font-face {
+  font-family: fontSite;
+  src: url(./../src/font/static/RobotoSlab-Medium.ttf);
+}
+body {
+  background: #ECD662;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  font-family: fontSite;
+}
+
+header {
+  background: #3E215D;
+  height: 70px;
+  width: 100%;
+}
+header .navBar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-bottom: solid black 2px;
+}
+header .navBar .logo {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .navBar .logo img {
+  width: 100%;
+  height: 80%;
+}
+header .navBar .links {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-right: solid black 1px;
+  border-left: solid black 1px;
+}
+header .navBar .links a {
+  color: white;
+  height: 40%;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.1s;
+}
+header .navBar .links a:hover {
+  border-bottom: solid black 4px;
+}
+header .navBar .languages {
+  width: 15%;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background: #284E78;
+}
+footer .liens {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+footer .liens .lesLiens {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .liens .lesLiens i {
+  font-size: xx-large;
+  color: #5D8233;
+  padding-right: 10px;
+}
+footer .liens .lesLiens a {
+  width: 25%;
+  height: 50%;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+footer .logo2 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .logo2 img {
+  width: 170px;
+  height: 50px;
+  padding-top: 15px;
+}
+footer .logo2 .copyright {
+  margin-bottom: 0px;
+  opacity: 50%;
+  color: grey;
+}
+footer .logo2 .molen {
+  margin-bottom: 0px;
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */
