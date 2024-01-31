@@ -73,28 +73,28 @@ liens()
 
 //Ici on récupere les séances d'informations
 
-let seances = data.formations.seancesInfos
+// let seances = data.formations.seancesInfos
 
-let seancesInfos1 = () =>{
-    for (const key in seances) {
-        if (Object.hasOwnProperty.call(seances, key)) {
-            let p = document.createElement("p")
-            p.innerText = key
-            document.querySelector(".infos1").appendChild(p)
-        }
-    }
-}
+// let seancesInfos1 = () =>{
+//     for (const key in seances) {
+//         if (Object.hasOwnProperty.call(seances, key)) {
+//             let p = document.createElement("p")
+//             p.innerText = key
+//             document.querySelector(".infos1").appendChild(p)
+//         }
+//     }
+// }
 
-seancesInfos1()
+// seancesInfos1()
 
-let seancesInfos2 = () =>{
-    for (const key in seances) {
-        if (Object.hasOwnProperty.call(seances, key)) {
-            let p = document.createElement("p")
-            p.innerText = key
-            document.querySelector(".infos2").appendChild(p)
-        }
-    }
-}
+// let seancesInfos2 = () =>{
+//     for (const key in seances) {
+//         if (Object.hasOwnProperty.call(seances, key)) {
+//             let p = document.createElement("p")
+//             p.innerText = key
+//             document.querySelector(".infos2").appendChild(p)
+//         }
+//     }
+// }
 
-seancesInfos2()
+// seancesInfos2()

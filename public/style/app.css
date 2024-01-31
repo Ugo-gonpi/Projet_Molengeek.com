@@ -3,7 +3,7 @@
   src: url(./../src/font/static/RobotoSlab-Medium.ttf);
 }
 body {
-  background: #ECD662;
+  background: #7A9D54;
   padding: 0px;
   margin: 0px;
   width: 100vw;
@@ -75,7 +75,7 @@ footer .liens .lesLiens {
 }
 footer .liens .lesLiens i {
   font-size: xx-large;
-  color: #5D8233;
+  color: #8CC0DE;
   padding-right: 10px;
 }
 footer .liens .lesLiens a {
@@ -131,7 +131,7 @@ footer .logo2 .molen {
   line-height: 70px;
   margin: 0;
   padding: 0;
-  color: #5D8233;
+  color: #284E78;
   filter: brightness(-1);
   font-size: 40px;
 }
@@ -156,7 +156,7 @@ footer .logo2 .molen {
   padding-left: 20px;
 }
 .home2 .descripLien h2 span {
-  color: #3E3232;
+  color: #284E78;
   font-style: bold;
 }
 .home2 .descripLien p {
@@ -178,22 +178,12 @@ footer .logo2 .molen {
   border-bottom: solid black 4px;
 }
 .home2 .partieCarousel {
-  width: 40%;
+  width: 70%;
   height: 100%;
   display: flex;
   justify-content: center;
 }
 .home2 .partieCarousel h2 {
-  color: white;
-  padding-bottom: 0px;
-  text-decoration: underline 2px solid grey;
-  text-underline-offset: 8px;
-}
-.home2 .evenements {
-  width: 30%;
-  height: 100%;
-}
-.home2 .evenements h2 {
   color: white;
   padding-bottom: 0px;
   text-decoration: underline 2px solid grey;
@@ -231,12 +221,12 @@ footer .logo2 .molen {
   display: flex;
   flex-direction: column;
   line-height: 40px;
-  color: #294B29;
+  color: white;
 }
 
 .home4 {
   width: 100%;
-  height: 180px;
+  height: 250px;
   padding-top: 50px;
   display: flex;
   align-items: center;
@@ -245,6 +235,7 @@ footer .logo2 .molen {
 .home4 .lettre {
   font-size: 50px;
   color: #284E78;
+  padding-top: 35px;
 }
 .home4 h3 {
   color: white;
@@ -273,12 +264,23 @@ footer .logo2 .molen {
   border-radius: 10px;
 }
 
+.home5 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+.home5 h2 {
+  color: white;
+  text-decoration: underline 2px grey solid;
+  text-underline-offset: 8px;
+}
+
 @font-face {
   font-family: fontSite;
   src: url(./../src/font/static/RobotoSlab-Medium.ttf);
 }
 body {
-  background: #ECD662;
+  background: #7A9D54;
   padding: 0px;
   margin: 0px;
   width: 100vw;
@@ -350,7 +352,7 @@ footer .liens .lesLiens {
 }
 footer .liens .lesLiens i {
   font-size: xx-large;
-  color: #5D8233;
+  color: #8CC0DE;
   padding-right: 10px;
 }
 footer .liens .lesLiens a {
@@ -397,7 +399,7 @@ footer .logo2 .molen {
   margin: 0;
   padding: 0;
   width: 40%;
-  color: #5D8233;
+  color: #284E78;
   font-size: 50px;
   text-align: center;
   font-weight: bold;
@@ -420,7 +422,7 @@ footer .logo2 .molen {
   text-underline-offset: 8px;
 }
 .cowork2 .description h3 span {
-  color: black;
+  color: #284E78;
 }
 .cowork2 .description p {
   color: white;
@@ -428,7 +430,7 @@ footer .logo2 .molen {
   line-height: 35px;
 }
 .cowork2 .description p span {
-  color: black;
+  color: #284E78;
 }
 .cowork2 .gratuit {
   border: black solid 1px;
@@ -441,7 +443,7 @@ footer .logo2 .molen {
   text-underline-offset: 8px;
 }
 .cowork2 .gratuit h3 span {
-  color: black;
+  color: #284E78;
 }
 .cowork2 .gratuit p {
   color: white;
@@ -449,7 +451,7 @@ footer .logo2 .molen {
   line-height: 20px;
 }
 .cowork2 .gratuit p span {
-  color: black;
+  color: #284E78;
 }
 .cowork2 .horaire {
   grid-column: span 2;
@@ -462,7 +464,7 @@ footer .logo2 .molen {
   text-underline-offset: 8px;
 }
 .cowork2 .horaire h3 span {
-  color: black;
+  color: #284E78;
 }
 .cowork2 .horaire p {
   color: white;
@@ -490,7 +492,7 @@ footer .logo2 .molen {
   text-underline-offset: 8px;
 }
 .cowork3 .contactInfo p {
-  color: #5D8233;
+  color: white;
   line-height: 40px;
 }
 .cowork3 .googleMaps {
@@ -509,7 +511,7 @@ footer .logo2 .molen {
   src: url(./../src/font/static/RobotoSlab-Medium.ttf);
 }
 body {
-  background: #ECD662;
+  background: #7A9D54;
   padding: 0px;
   margin: 0px;
   width: 100vw;
@@ -583,7 +585,7 @@ footer .liens .lesLiens {
 }
 footer .liens .lesLiens i {
   font-size: xx-large;
-  color: #5D8233;
+  color: #8CC0DE;
   padding-right: 10px;
 }
 footer .liens .lesLiens a {
@@ -630,7 +632,7 @@ footer .logo2 .molen {
   margin: 0;
   padding: 0;
   width: 40%;
-  color: #5D8233;
+  color: #284E78;
   font-size: 50px;
   text-align: center;
   font-weight: bold;
@@ -663,7 +665,7 @@ footer .logo2 .molen {
   src: url(./../src/font/static/RobotoSlab-Medium.ttf);
 }
 body {
-  background: #ECD662;
+  background: #7A9D54;
   padding: 0px;
   margin: 0px;
   width: 100vw;
@@ -737,7 +739,7 @@ footer .liens .lesLiens {
 }
 footer .liens .lesLiens i {
   font-size: xx-large;
-  color: #5D8233;
+  color: #8CC0DE;
   padding-right: 10px;
 }
 footer .liens .lesLiens a {
@@ -768,6 +770,79 @@ footer .logo2 .copyright {
 footer .logo2 .molen {
   margin-bottom: 0px;
   color: white;
+}
+
+.propos1 {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3647058824), rgba(0, 0, 0, 0.2862745098)), url("./../src/images/molengeek.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.propos1 h1 {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  color: #284E78;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.propos2 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propos2 .lesPhotos {
+  width: 50%;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+.propos2 .lesPhotos .grandesPhotos {
+  width: 100%;
+  height: 250px;
+  padding-bottom: 20px;
+}
+.propos2 .lesPhotos .grandesPhotos img {
+  height: 100%;
+  width: 100%;
+}
+.propos2 .lesPhotos .petitesPhotos {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  padding-bottom: 20px;
+}
+.propos2 .lesPhotos .petitesPhotos img {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+}
+.propos2 .lesText {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.propos2 .lesText h2 {
+  color: white;
+}
+.propos2 .lesText h2 span {
+  color: #284E78;
+}
+.propos2 .lesText p {
+  color: white;
+  width: 70%;
 }
 
 /*# sourceMappingURL=app.css.map */
