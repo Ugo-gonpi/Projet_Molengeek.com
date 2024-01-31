@@ -803,8 +803,8 @@ footer .logo2 .molen {
 .propos2 .lesPhotos {
   width: 50%;
   height: 100%;
-  padding-top: 50px;
-  padding-left: 10px;
+  padding-top: 100px;
+  padding-left: 20px;
 }
 .propos2 .lesPhotos .grandesPhotos {
   width: 100%;
@@ -814,6 +814,7 @@ footer .logo2 .molen {
 .propos2 .lesPhotos .grandesPhotos img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 .propos2 .lesPhotos .petitesPhotos {
   width: 100%;
@@ -821,10 +822,15 @@ footer .logo2 .molen {
   display: flex;
   padding-bottom: 20px;
 }
+.propos2 .lesPhotos .petitesPhotos .photoDroite {
+  width: 45%;
+}
+.propos2 .lesPhotos .petitesPhotos .photoGauche {
+  width: 45%;
+  padding-right: 65px;
+}
 .propos2 .lesPhotos .petitesPhotos img {
-  width: 100%;
-  height: 100%;
-  padding-right: 15px;
+  border-radius: 10px;
 }
 .propos2 .lesText {
   width: 50%;
