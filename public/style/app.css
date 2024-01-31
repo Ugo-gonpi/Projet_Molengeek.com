@@ -851,4 +851,142 @@ footer .logo2 .molen {
   width: 70%;
 }
 
+@font-face {
+  font-family: fontSite;
+  src: url(./../src/font/static/RobotoSlab-Medium.ttf);
+}
+body {
+  background: #7A9D54;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  font-family: fontSite;
+}
+
+header {
+  background: #3E215D;
+  height: 70px;
+  width: 100%;
+}
+header .navBar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-bottom: solid black 2px;
+}
+header .navBar .logo {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .navBar .logo img {
+  width: 100%;
+  height: 80%;
+}
+header .navBar .links {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-right: solid black 1px;
+  border-left: solid black 1px;
+}
+header .navBar .links a {
+  color: white;
+  height: 40%;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.1s;
+}
+header .navBar .links a:hover {
+  border-bottom: solid black 4px;
+}
+header .navBar .languages {
+  width: 15%;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background: #284E78;
+}
+footer .liens {
+  width: 100%;
+  height: 30%;
+}
+footer .liens .lesLiens {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .liens .lesLiens i {
+  font-size: xx-large;
+  color: #8CC0DE;
+  padding-right: 10px;
+}
+footer .liens .lesLiens a {
+  width: 25%;
+  height: 50%;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+footer .logo2 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .logo2 img {
+  width: 170px;
+  height: 50px;
+  padding-top: 15px;
+}
+footer .logo2 .copyright {
+  margin-bottom: 0px;
+  opacity: 50%;
+  color: grey;
+}
+footer .logo2 .molen {
+  margin-bottom: 0px;
+  color: white;
+}
+
+.jobs1 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 500px;
+}
+.jobs1 .banniere2 {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3647058824), rgba(0, 0, 0, 0.2862745098)), url("./../src/images/jobs.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  border-top: solid black 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.jobs1 .banniere2 h1 {
+  width: 50%;
+  line-height: 70px;
+  margin: 0;
+  padding: 0;
+  color: #284E78;
+  filter: brightness(-1);
+  font-size: 40px;
+}
+
 /*# sourceMappingURL=app.css.map */
