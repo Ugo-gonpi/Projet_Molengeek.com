@@ -67,6 +67,24 @@ footer .liens {
   width: 100%;
   height: 30%;
 }
+footer .liens .lesLiens {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .liens .lesLiens i {
+  font-size: xx-large;
+  color: #5D8233;
+  padding-right: 10px;
+}
+footer .liens .lesLiens a {
+  width: 25%;
+  height: 50%;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
 footer .logo2 {
   width: 100%;
   height: 70%;
@@ -188,7 +206,7 @@ footer .logo2 .molen {
   display: flex;
 }
 .home3 .maps {
-  width: 70%;
+  width: 65%;
   height: 100%;
 }
 .home3 .maps iframe {
@@ -198,7 +216,7 @@ footer .logo2 .molen {
   padding-left: 15px;
 }
 .home3 .contactInfo {
-  width: 30%;
+  width: 35%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -324,6 +342,24 @@ footer .liens {
   width: 100%;
   height: 30%;
 }
+footer .liens .lesLiens {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .liens .lesLiens i {
+  font-size: xx-large;
+  color: #5D8233;
+  padding-right: 10px;
+}
+footer .liens .lesLiens a {
+  width: 25%;
+  height: 50%;
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
 footer .logo2 {
   width: 100%;
   height: 70%;
@@ -441,18 +477,21 @@ footer .logo2 .molen {
   justify-content: center;
   align-items: center;
 }
-.cowork3 .contactUs {
+.cowork3 .contactInfo {
   width: 40%;
   height: 100%;
   padding-left: 40px;
 }
-.cowork3 .contactUs h1 {
+.cowork3 .contactInfo h1 {
   padding: 0;
   margin: 0;
   color: white;
+  text-decoration: underline 2px grey solid;
+  text-underline-offset: 8px;
 }
-.cowork3 .contactUs p {
+.cowork3 .contactInfo p {
   color: #5D8233;
+  line-height: 40px;
 }
 .cowork3 .googleMaps {
   width: 60%;
@@ -533,6 +572,26 @@ footer {
 footer .liens {
   width: 100%;
   height: 30%;
+  display: flex;
+  align-items: center;
+}
+footer .liens .lesLiens {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .liens .lesLiens i {
+  font-size: xx-large;
+  color: #5D8233;
+  padding-right: 10px;
+}
+footer .liens .lesLiens a {
+  width: 25%;
+  height: 50%;
+  color: white;
+  font-size: large;
+  text-decoration: none;
 }
 footer .logo2 {
   width: 100%;
@@ -555,6 +614,31 @@ footer .logo2 .copyright {
 footer .logo2 .molen {
   margin-bottom: 0px;
   color: white;
+}
+
+.agenda1 {
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3647058824), rgba(0, 0, 0, 0.2862745098)), url("./../src/images/agenda1.avif");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.agenda1 h1 {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  color: #5D8233;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.agenda2 {
+  width: 100%;
+  height: 500px;
 }
 
 /*# sourceMappingURL=app.css.map */

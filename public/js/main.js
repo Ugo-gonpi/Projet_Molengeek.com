@@ -31,17 +31,18 @@ logoFooter()
 
 let resaux = data.reseauxSociaux
 
-console.log(resaux);
-
 let a
 
 let liens = () =>{
-    for (let i = 0; i < resaux.length; i++) {
-        a = document.createElement("a")
-        a.href = resaux[i].href
-        document.querySelector(".liens").appendChild(a)
+    for (const key in resaux) {
+        if (Object.hasOwnProperty.call(resaux, key)) {
+            a = document.createElement("a")
+            a.href = key
+            document.querySelector(".liens").appendChild(a)
+        }
     }
 }
+
 
 liens()
 
@@ -53,3 +54,20 @@ liens()
 //     item.style.backgroundImage = `url(${element.logo})`;
 //     document.querySelector(".carousel").appendChild(item);
 // });
+
+
+//Ici on récupere l'info de molengeek
+
+let infoMolen = data.molengeekInfo
+
+let divInfo = document.querySelector(".contactInfo")
+
+divInfo.innerHTML = `
+    <h1>N'hésitez pas a nous contacter</h1>
+    <p>${infoMolen.name}</p>
+    <p>${infoMolen.address}</p>
+    <p>${infoMolen.email}</p>
+    <p>${infoMolen.phone}</p>
+    <p>${infoMolen.tva}</p>
+`
+
