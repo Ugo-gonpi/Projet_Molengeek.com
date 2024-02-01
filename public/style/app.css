@@ -108,6 +108,11 @@ footer .logo2 .molen {
   color: white;
 }
 
+@media (max-width: 376px) {
+  footer {
+    width: 400px;
+  }
+}
 .home1 {
   padding: 0;
   margin: 0;
@@ -1202,7 +1207,47 @@ header .navBar .languages {
 
 .formations1 {
   width: 100%;
-  height: 450px;
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3647058824), rgba(0, 0, 0, 0.2862745098)), url("./../src/images/formation1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formations1 h1 {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  color: #3E215D;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.formations2 {
+  width: 100%;
+  height: 500px;
+}
+
+.formations3 {
+  width: 100%;
+  height: 250px;
+  border-top: 2px solid black;
+}
+.formations3 .faq {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formations3 .faq .questionRe {
+  width: 20%;
+  height: 100%;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */

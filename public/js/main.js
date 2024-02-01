@@ -31,8 +31,6 @@ logoFooter()
 
 let resaux = data.reseauxSociaux
 
-
-
 let liens = () =>{
     for (const key in resaux) {
         if (Object.hasOwnProperty.call(resaux, key)) {
@@ -71,63 +69,40 @@ liens()
 
 //Ici on récupere les événements a venir 
 
-// let avenir = data.formations.seancesInfos
+let avenir = data.formations.seancesInfos
 
-// let cont1 = 0
+let cont1 = 0
 
-// let evenements = () => {
-//     for (const key in avenir) {
-//         if (Object.hasOwnProperty.call(avenir, key)) {
-//             const element = avenir[key];
-//             let h6 = document.createElement("h4")
-//             let p = document.createElement("p")
-//             h6.innerText = element.date
-//             p.innerText = element.nom
-//             document.querySelectorAll(".seances")[cont1].appendChild(h6)
-//             document.querySelectorAll(".seances")[cont1].appendChild(p)
-//             cont1 += 1
-//         }
-//     }
-// }
-
-// evenements()
-
-//Ici on récupere l'info de molengeek
-
-// let infoMolen = data.molengeekInfo
-
-// let infoHome = () => {
-//     for (const key in infoMolen) {
-//         if (Object.hasOwnProperty.call(infoMolen, key)) {
-//             const element = infoMolen[key];
-//             let p = document.createElement("p")
-//             p.innerText = element
-//             document.querySelector(".contact").appendChild(p)
-//         }
-//     }
-// }
-
-// infoHome()
-
-//Ici on récupere les differenst jobs
-
-let jobs = data.jobs
-
-let cont2 = 0
-
-let lesJobs = () => {
-    for (const key in jobs) {
-        if (Object.hasOwnProperty.call(jobs, key)) {
-            const element = jobs[key];
-            let h3 = document.createElement("h3")
+let evenements = () => {
+    for (const key in avenir) {
+        if (Object.hasOwnProperty.call(avenir, key)) {
+            const element = avenir[key];
+            let h6 = document.createElement("h4")
             let p = document.createElement("p")
-            h3.innerText = element.poste
-            p.innerText = element.description
-            document.querySelectorAll(".range1")[cont2].appendChild(h3)
-            document.querySelectorAll(".range1")[cont2].appendChild(p)
-            cont2 += 1
+            h6.innerText = element.date
+            p.innerText = element.nom
+            document.querySelectorAll(".seances")[cont1].appendChild(h6)
+            document.querySelectorAll(".seances")[cont1].appendChild(p)
+            cont1 += 1
         }
     }
 }
 
-lesJobs()
+evenements()
+
+//Ici on récupere l'info de molengeek
+
+let infoMolen = data.molengeekInfo
+
+let info = () => {
+    for (const key in infoMolen) {
+        if (Object.hasOwnProperty.call(infoMolen, key)) {
+            const element = infoMolen[key];
+            let p = document.createElement("p")
+            p.innerText = element
+            document.querySelector(".contact").appendChild(p)
+        }
+    }
+}
+
+info()
