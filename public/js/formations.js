@@ -62,10 +62,6 @@ liens()
 
 //Ici je récupere les temoignages
 
-// let testimonials1 = data.videosTemoignage.videoI
-
-// let testimonials2 = data.videosTemoignage.videoII
-
 let temoin1 = document.querySelector(".video1")
 
 let temoin2 = document.querySelector(".video2")
