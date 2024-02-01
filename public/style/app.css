@@ -1250,4 +1250,38 @@ header .navBar .languages {
   margin-right: 20px;
 }
 
+.formations4 {
+  width: 100%;
+  height: 470px;
+  display: flex;
+  border-top: 2px solid black;
+}
+.formations4 .pourquoi {
+  width: 45%;
+  height: 100%;
+  padding-left: 20px;
+  border-right: 2px solid black;
+}
+.formations4 .pourquoi h2 {
+  color: #3E215D;
+  text-decoration: underline 2px solid grey;
+  text-underline-offset: 8px;
+}
+.formations4 .pourquoi p {
+  color: white;
+}
+.formations4 .testimonials {
+  width: 55%;
+  height: 90%;
+  display: flex;
+}
+.formations4 .testimonials iframe {
+  width: 250px;
+  height: 250px;
+  padding-left: 50px;
+  padding-top: 100px;
+  padding-right: 50px;
+  border: none;
+}
+
 /*# sourceMappingURL=app.css.map */
