@@ -48,13 +48,6 @@ liens()
 
 // Ici, je crée le carousel
 
-// Object.values(data.partenaires).forEach(element => {
-//     let item = document.createElement('div');
-//     item.classList.add('item');
-//     item.style.backgroundImage = `url(${element.logo})`;
-//     document.querySelector(".carousel").appendChild(item);
-// });
-
 
 //Ici on récupere l'info de molengeek
 
