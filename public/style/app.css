@@ -131,7 +131,7 @@ footer .logo2 .molen {
   line-height: 70px;
   margin: 0;
   padding: 0;
-  color: #284E78;
+  color: #3E215D;
   filter: brightness(-1);
   font-size: 40px;
 }
@@ -156,7 +156,7 @@ footer .logo2 .molen {
   padding-left: 20px;
 }
 .home2 .descripLien h2 span {
-  color: #284E78;
+  color: #3E215D;
   font-style: bold;
 }
 .home2 .descripLien p {
@@ -166,10 +166,11 @@ footer .logo2 .molen {
   padding-left: 20px;
 }
 .home2 .descripLien a {
-  color: white;
+  color: #3E215D;
   height: 40%;
   text-decoration: none;
   font-size: 25px;
+  font-weight: bold;
   transition: 0.1s;
   padding-right: 10px;
   padding-left: 10px;
@@ -182,12 +183,17 @@ footer .logo2 .molen {
   height: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 .home2 .partieCarousel h2 {
   color: white;
   padding-bottom: 0px;
   text-decoration: underline 2px solid grey;
   text-underline-offset: 8px;
+}
+.home2 .partieCarousel #carouselExampleSlidesOnly {
+  width: 100%;
+  height: 50%;
 }
 
 .home3 {
@@ -234,7 +240,7 @@ footer .logo2 .molen {
 }
 .home4 .lettre {
   font-size: 50px;
-  color: #284E78;
+  color: #3E215D;
   padding-top: 35px;
 }
 .home4 h3 {
@@ -258,7 +264,7 @@ footer .logo2 .molen {
   width: 150px;
   height: 35px;
   margin-left: 20px;
-  background: #284E78;
+  background: #3E215D;
   color: white;
   font-family: fontSite;
   border-radius: 10px;
@@ -266,13 +272,57 @@ footer .logo2 .molen {
 
 .home5 {
   width: 100%;
-  height: 500px;
+  height: 400px;
   display: flex;
 }
 .home5 h2 {
   color: white;
   text-decoration: underline 2px grey solid;
   text-underline-offset: 8px;
+}
+.home5 .evenements {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.home5 .evenements .aVenir {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home5 .evenements .aVenir .infos1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home5 .evenements .aVenir .infos1 .seances h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.home5 .evenements .aVenir .infos1 .seances p {
+  color: #3E215D;
+  font-weight: bold;
+  font-size: 20px;
+}
+.home5 .evenements .aVenir .infos2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home5 .evenements .aVenir .infos2 .seances h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.home5 .evenements .aVenir .infos2 .seances p {
+  color: #3E215D;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 @font-face {
@@ -399,7 +449,7 @@ footer .logo2 .molen {
   margin: 0;
   padding: 0;
   width: 40%;
-  color: #284E78;
+  color: #3E215D;
   font-size: 50px;
   text-align: center;
   font-weight: bold;
@@ -422,7 +472,7 @@ footer .logo2 .molen {
   text-underline-offset: 8px;
 }
 .cowork2 .description h3 span {
-  color: #284E78;
+  color: #3E215D;
 }
 .cowork2 .description p {
   color: white;
@@ -430,7 +480,7 @@ footer .logo2 .molen {
   line-height: 35px;
 }
 .cowork2 .description p span {
-  color: #284E78;
+  color: #3E215D;
 }
 .cowork2 .gratuit {
   border: black solid 1px;
@@ -443,7 +493,7 @@ footer .logo2 .molen {
   text-underline-offset: 8px;
 }
 .cowork2 .gratuit h3 span {
-  color: #284E78;
+  color: #3E215D;
 }
 .cowork2 .gratuit p {
   color: white;
@@ -451,7 +501,11 @@ footer .logo2 .molen {
   line-height: 20px;
 }
 .cowork2 .gratuit p span {
-  color: #284E78;
+  color: #3E215D;
+}
+.cowork2 .gratuit ul {
+  color: #3E215D;
+  font-weight: bold;
 }
 .cowork2 .horaire {
   grid-column: span 2;
@@ -464,7 +518,7 @@ footer .logo2 .molen {
   text-underline-offset: 8px;
 }
 .cowork2 .horaire h3 span {
-  color: #284E78;
+  color: #3E215D;
 }
 .cowork2 .horaire p {
   color: white;
@@ -632,7 +686,7 @@ footer .logo2 .molen {
   margin: 0;
   padding: 0;
   width: 40%;
-  color: #284E78;
+  color: #3E215D;
   font-size: 50px;
   text-align: center;
   font-weight: bold;
@@ -787,7 +841,7 @@ footer .logo2 .molen {
   margin: 0;
   padding: 0;
   width: 40%;
-  color: #284E78;
+  color: #3E215D;
   font-size: 50px;
   text-align: center;
   font-weight: bold;
@@ -844,7 +898,7 @@ footer .logo2 .molen {
   color: white;
 }
 .propos2 .lesText h2 span {
-  color: #284E78;
+  color: #3E215D;
 }
 .propos2 .lesText p {
   color: white;
@@ -1104,6 +1158,11 @@ header .navBar .links a:hover {
 header .navBar .languages {
   width: 15%;
   height: 100%;
+}
+
+.formations1 {
+  width: 100%;
+  height: 450px;
 }
 
 /*# sourceMappingURL=app.css.map */

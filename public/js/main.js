@@ -46,23 +46,68 @@ let liens = () =>{
 
 liens()
 
-// Ici, je crée le carousel
+// Ici je prends les logos des partenaires
+
+let logosPart = data.partenaires
+
+
+let cont = 0
+
+let partenaires = () =>{
+    for (const key in logosPart) {
+        if (Object.hasOwnProperty.call(logosPart, key)) {
+            const element = logosPart[key];
+            let img = document.createElement("img")
+            img.src = element.logo
+            document.querySelectorAll(".carousel-item")[cont].appendChild(img)
+            img.style.width = "200px"
+            cont += 1
+        }
+    }
+}
+    
+partenaires()
+
+//Ici on récupere les événements a venir 
+
+let avenir = data.formations.seancesInfos
+
+let cont1 = 0
+
+let evenements = () => {
+    for (const key in avenir) {
+        if (Object.hasOwnProperty.call(avenir, key)) {
+            const element = avenir[key];
+            let h6 = document.createElement("h4")
+            let p = document.createElement("p")
+            h6.innerText = element.date
+            p.innerText = element.nom
+            document.querySelectorAll(".seances")[cont1].appendChild(h6)
+            document.querySelectorAll(".seances")[cont1].appendChild(p)
+            cont1 += 1
+        }
+    }
+}
+
+evenements()
 
 
 //Ici on récupere l'info de molengeek
 
-// let infoMolen = data.molengeekInfo
+let infoMolen = data.molengeekInfo
 
-// let divInfo = document.querySelector(".contactInfo")
+let infoHome = () => {
+    for (const key in infoMolen) {
+        if (Object.hasOwnProperty.call(infoMolen, key)) {
+            const element = infoMolen[key];
+            let p = document.createElement("p")
+            p.innerText = element
+            document.querySelector(".contact").appendChild(p)
+        }
+    }
+}
 
-// divInfo.innerHTML = `
-//     <h1>N'hésitez pas a nous contacter</h1>
-//     <p>${infoMolen.name}</p>
-//     <p>${infoMolen.address}</p>
-//     <p>${infoMolen.email}</p>
-//     <p>${infoMolen.phone}</p>
-//     <p>${infoMolen.tva}</p>
-// `
+infoHome()
 
 //Ici on récupere les séances d'informations
 
