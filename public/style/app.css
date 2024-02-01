@@ -49,6 +49,7 @@ header .navBar .links a {
   text-decoration: none;
   font-size: 25px;
   transition: 0.1s;
+  text-shadow: black 3px 3px;
 }
 header .navBar .links a:hover {
   border-bottom: solid black 4px;
@@ -62,6 +63,7 @@ footer {
   width: 100%;
   height: 250px;
   background: #284E78;
+  border-top: 2px black solid;
 }
 footer .liens {
   width: 100%;
@@ -77,13 +79,6 @@ footer .liens .lesLiens i {
   font-size: xx-large;
   color: #8CC0DE;
   padding-right: 10px;
-}
-footer .liens .lesLiens a {
-  width: 25%;
-  height: 50%;
-  color: white;
-  font-size: large;
-  text-decoration: none;
 }
 footer .logo2 {
   width: 100%;
@@ -139,6 +134,7 @@ footer .logo2 .molen {
   color: #3E215D;
   filter: brightness(-1);
   font-size: 40px;
+  text-shadow: black 3px 3px;
 }
 
 .home2 {
@@ -159,6 +155,7 @@ footer .logo2 .molen {
   text-decoration: underline 2px solid grey;
   text-underline-offset: 8px;
   padding-left: 20px;
+  text-shadow: black 2px 2px;
 }
 .home2 .descripLien h2 span {
   color: #3E215D;
@@ -179,6 +176,7 @@ footer .logo2 .molen {
   transition: 0.1s;
   padding-right: 10px;
   padding-left: 10px;
+  text-shadow: black 2px 2px;
 }
 .home2 .descripLien a:hover {
   border-bottom: solid black 4px;
@@ -195,26 +193,25 @@ footer .logo2 .molen {
   padding-bottom: 0px;
   text-decoration: underline 2px solid grey;
   text-underline-offset: 8px;
-}
-.home2 .partieCarousel #carouselExampleSlidesOnly {
-  width: 100%;
-  height: 50%;
+  text-shadow: black 3px 3px;
 }
 
 .home3 {
   width: 100%;
   height: 400px;
   display: flex;
+  border-top: 2px black solid;
 }
 .home3 .maps {
   width: 65%;
   height: 100%;
+  border: 4px solid #3E215D;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .home3 .maps iframe {
   width: 100%;
   height: 100%;
-  padding-top: 20px;
-  padding-left: 15px;
 }
 .home3 .contactInfo {
   width: 35%;
@@ -222,17 +219,20 @@ footer .logo2 .molen {
   display: flex;
   flex-direction: column;
   padding-left: 40px;
+  margin-top: 10px;
 }
 .home3 .contactInfo h1 {
   color: white;
   text-decoration: underline 2px grey solid;
   text-underline-offset: 8px;
+  text-shadow: black 2px 2px;
 }
 .home3 .contactInfo p {
   display: flex;
   flex-direction: column;
   line-height: 40px;
   color: white;
+  text-shadow: black 1px 1px;
 }
 
 .home4 {
@@ -252,6 +252,7 @@ footer .logo2 .molen {
   color: white;
   text-decoration: underline 2px grey solid;
   text-underline-offset: 8px;
+  text-shadow: black 2px 2px;
 }
 .home4 .inscription {
   width: 100%;
@@ -284,6 +285,7 @@ footer .logo2 .molen {
   color: white;
   text-decoration: underline 2px grey solid;
   text-underline-offset: 8px;
+  text-shadow: black 3px 3px;
 }
 .home5 .evenements {
   width: 100%;
@@ -307,11 +309,13 @@ footer .logo2 .molen {
   color: white;
   font-weight: bold;
   font-size: 20px;
+  text-shadow: black 2px 2px;
 }
 .home5 .evenements .aVenir .infos1 .seances p {
   color: #3E215D;
   font-weight: bold;
   font-size: 20px;
+  text-shadow: black 1px 1px;
 }
 .home5 .evenements .aVenir .infos2 {
   width: 50%;
@@ -323,11 +327,13 @@ footer .logo2 .molen {
   color: white;
   font-weight: bold;
   font-size: 20px;
+  text-shadow: black 2px 2px;
 }
 .home5 .evenements .aVenir .infos2 .seances p {
   color: #3E215D;
   font-weight: bold;
   font-size: 20px;
+  text-shadow: black 1px 1px;
 }
 
 @font-face {
@@ -458,6 +464,7 @@ footer .logo2 .molen {
   font-size: 50px;
   text-align: center;
   font-weight: bold;
+  text-shadow: black 3px 3px;
 }
 
 .cowork2 {
@@ -475,6 +482,7 @@ footer .logo2 .molen {
   padding-left: 20px;
   text-decoration: underline 2px solid grey;
   text-underline-offset: 8px;
+  text-shadow: black 2px 2px;
 }
 .cowork2 .description h3 span {
   color: #3E215D;
@@ -486,6 +494,7 @@ footer .logo2 .molen {
 }
 .cowork2 .description p span {
   color: #3E215D;
+  text-shadow: black 1px 1px;
 }
 .cowork2 .gratuit {
   border: black solid 1px;
@@ -496,6 +505,7 @@ footer .logo2 .molen {
   padding-left: 20px;
   text-decoration: underline 2px solid grey;
   text-underline-offset: 8px;
+  text-shadow: black 3px 3px;
 }
 .cowork2 .gratuit h3 span {
   color: #3E215D;
@@ -507,10 +517,12 @@ footer .logo2 .molen {
 }
 .cowork2 .gratuit p span {
   color: #3E215D;
+  text-shadow: black 1px 1px;
 }
 .cowork2 .gratuit ul {
   color: #3E215D;
   font-weight: bold;
+  text-shadow: black 1px 1px;
 }
 .cowork2 .horaire {
   grid-column: span 2;
@@ -518,9 +530,10 @@ footer .logo2 .molen {
 .cowork2 .horaire h3 {
   color: white;
   padding-top: 0px;
-  padding-left: 25px;
+  padding-left: 40px;
   text-decoration: underline 2px solid grey;
   text-underline-offset: 8px;
+  text-shadow: black 2px 2px;
 }
 .cowork2 .horaire h3 span {
   color: #3E215D;
@@ -528,7 +541,7 @@ footer .logo2 .molen {
 .cowork2 .horaire p {
   color: white;
   padding-top: 10px;
-  padding-left: 25px;
+  padding-left: 40px;
 }
 
 .cowork3 {
@@ -549,20 +562,23 @@ footer .logo2 .molen {
   color: white;
   text-decoration: underline 2px grey solid;
   text-underline-offset: 8px;
+  text-shadow: black 2px 2px;
 }
 .cowork3 .contactInfo p {
   color: white;
   line-height: 40px;
+  text-shadow: black 1px 1px;
 }
 .cowork3 .googleMaps {
   width: 60%;
   height: 100%;
-  padding-right: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  border: 4px solid #3E215D;
 }
 .cowork3 .googleMaps iframe {
   width: 100%;
-  height: 90%;
-  padding-top: 10px;
+  height: 100%;
 }
 
 @font-face {
@@ -850,6 +866,7 @@ footer .logo2 .molen {
   font-size: 50px;
   text-align: center;
   font-weight: bold;
+  text-shadow: black 3px 3px;
 }
 
 .propos2 {
@@ -904,6 +921,7 @@ footer .logo2 .molen {
 }
 .propos2 .lesText h2 {
   color: white;
+  text-shadow: black 2px 2px;
 }
 .propos2 .lesText h2 span {
   color: #3E215D;
@@ -911,6 +929,7 @@ footer .logo2 .molen {
 .propos2 .lesText p {
   color: white;
   width: 70%;
+  text-shadow: black 1px 1px;
 }
 
 @font-face {
@@ -1046,9 +1065,10 @@ footer .logo2 .molen {
   line-height: 70px;
   margin: 0;
   padding: 0;
-  color: #284E78;
+  color: #3E215D;
   filter: brightness(-1);
   font-size: 40px;
+  text-shadow: black 3px 3px;
 }
 
 .jobs2 {
@@ -1069,10 +1089,11 @@ footer .logo2 .molen {
 .jobs2 .range1 h3 {
   color: #3E215D;
   padding-top: 60px;
-  text-decoration: underline 2px solid white;
+  text-shadow: black 2px 2px;
 }
 .jobs2 .range1 p {
   color: white;
+  text-shadow: black 1px 1px;
 }
 
 .jobs3 {
@@ -1092,10 +1113,11 @@ footer .logo2 .molen {
 .jobs3 .range1 h3 {
   color: #3E215D;
   padding-top: 60px;
-  text-decoration: underline 2px solid white;
+  text-shadow: black 2px 2px;
 }
 .jobs3 .range1 p {
   color: white;
+  text-shadow: black 1px 1px;
 }
 
 @font-face {
@@ -1158,51 +1180,47 @@ header .navBar .languages {
   height: 100%;
 }
 
-header {
-  background: #3E215D;
-  height: 70px;
+footer {
   width: 100%;
+  height: 250px;
+  background: #284E78;
 }
-header .navBar {
+footer .liens {
   width: 100%;
-  height: 100%;
-  display: flex;
-  border-bottom: solid black 2px;
+  height: 30%;
 }
-header .navBar .logo {
-  width: 15%;
-  height: 100%;
+footer .liens .lesLiens {
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header .navBar .logo img {
-  width: 100%;
-  height: 80%;
+footer .liens .lesLiens i {
+  font-size: xx-large;
+  color: #8CC0DE;
+  padding-right: 10px;
 }
-header .navBar .links {
-  width: 70%;
-  height: 100%;
+footer .logo2 {
+  width: 100%;
+  height: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  border-right: solid black 1px;
-  border-left: solid black 1px;
+  flex-direction: column;
 }
-header .navBar .links a {
+footer .logo2 img {
+  width: 170px;
+  height: 50px;
+  padding-top: 15px;
+}
+footer .logo2 .copyright {
+  margin-bottom: 0px;
+  opacity: 50%;
+  color: grey;
+}
+footer .logo2 .molen {
+  margin-bottom: 0px;
   color: white;
-  height: 40%;
-  text-decoration: none;
-  font-size: 20px;
-  transition: 0.1s;
-}
-header .navBar .links a:hover {
-  border-bottom: solid black 4px;
-}
-header .navBar .languages {
-  width: 15%;
-  height: 100%;
 }
 
 .formations1 {
@@ -1223,6 +1241,7 @@ header .navBar .languages {
   font-size: 50px;
   text-align: center;
   font-weight: bold;
+  text-shadow: black 3px 3px;
 }
 
 .formations2 {
@@ -1266,6 +1285,7 @@ header .navBar .languages {
   color: #3E215D;
   text-decoration: underline 2px solid grey;
   text-underline-offset: 8px;
+  text-shadow: black 2px 2px;
 }
 .formations4 .pourquoi p {
   color: white;

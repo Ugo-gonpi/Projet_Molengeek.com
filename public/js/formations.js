@@ -24,6 +24,22 @@ let logoFooter = () => {
 
 logoFooter()
 
+let resaux = data.reseauxSociaux
+
+let count = 0
+
+let liens = () =>{
+    for (const key in resaux) {
+        if (Object.hasOwnProperty.call(resaux, key)) {
+            const element = resaux[key];
+            document.querySelectorAll(".resaux")[count].href = element
+            count += 1
+        }
+    }
+}
+
+liens()
+
 //Ici on récupere les questions et les réponse
 
 // let questions = data.FAQ
